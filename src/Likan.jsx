@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 
 export default function Likan() {
   const [cards, setCards] = useState([]);
-  const [laoding, setLoading] = useState(true);
+  const [laoding, setLoading] = useState(false);
 
   useEffect(() => {
     const getCards = async () => {
